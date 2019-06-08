@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>yt-clone</title>
+</head>
+<body>
+
+    <header>
+        <ul class="navbar">
+            <li><i class="fas fa-bars"></i></li>
+            <li>
+            <a><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo 2017.svg"
+                    width="96" height="24"></a>
+            </li>
+            <li class="search">
+                <form><input placeholder="Search"/></form>
+                <button><i class="fa fa-search"></i></button>
+            </li>
+            <li class="nav-right"><i class="fas fa-video"></i></li>
+            <li class="nav-right"><i class="fas fa-th"></i></li>
+            <li class="nav-right"><i class="fas fa-share"></i></li>
+            <li class="nav-right"><i class="fas fa-ellipsis-v"></i></li>
+            <li class="nav-user"><i class="fas fa-user-circle"></i>SIGN IN</li>
+        </ul>
+    </header>
+
+    <main>
+        <div class="sections">
+            <div id="left">
+                <div id="video-player">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bjVUqvcCnxM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <section id="info-top">
+                    <h1>Deploy Websites In Seconds With Netlify</h1>
+                    <div id="info-text">
+                        <span>44,816 Views</span>
+                        <div id="info-btns">
+                            <div class="info-btn">
+                                <a href="#">
+                                    <i class="fas fa-thumbs-up"></i>
+                                    <span>1.6k</span>
+                                </a>
+                            </div>
+                            <div class="info-btn">
+                                <a href="#">
+                                    <i class="fas fa-thumbs-down"></i>
+                                    <span>19</span>
+                                </a>
+                            </div>
+                            <div class="info-btn">
+                                <a href="#">
+                                    <i class="fas fa-share"></i>
+                                    <span>share</span>
+                                </a>
+                            </div>
+                            <div class="info-btn">
+                                <a href="#">
+                                    <i class="fas fa-plus-square"></i>
+                                    <span>save</span>
+                                </a>
+                            </div>
+                            <div class="info-btn">
+                                <a href="#">
+                                    <i class="fas fa-ellipsis-h"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="info-bottom">
+                    <div id="first-row" class="user-sub">
+                        <div id="uploader" class="user-sub">
+                            <a href="#">
+                                <img src="traversy-media.jpg" alt="Traversy Media's Youtube Logo">
+                            </a>
+                            <div id="title-date">
+                                <a href="#">
+                                    <span>Traversy Media</span>
+                                </a>
+                                <span>Published on Sep 29, 2018</span>
+                            </div>
+                        </div>
+                        <div id="subscribe">
+                            <div id="sub-box">
+                                <a href="#">
+                                    <span>Subscribe</span>
+                                    <span>759K</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="second-row">
+                        <div id="second-row-container">
+                            <span>In this video I will show you how to deploy a website or frontend application to Netlify which is a fantastic service
+                            for hosting with free SSL, server-side functions and even built in form functionality. This video is NOT sponsored by
+                            Netlify in any way</span>
+                            <a href="#"><span>Show More</span></a>
+                        </div>
+                    </div>
+                </section>
+                <section id="comments">
+                    <div id="comments-container">
+                        <div id="comments-header">
+                            <div id="comments-head-container">
+                                <div class="comments-head-title">
+                                    <h2>175 Comments</h2>
+                                    <div id="sort-by">
+                                        <i class="fas fa-sort-amount-down"></i>
+                                        <span>Sort By</span>
+                                    </div>
+                                </div>
+                                <div id="add-comment">
+                                    <div id="user-thumbnail">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div id="placeholder">
+                                        <span>Add a public comment...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="comments-content">
+                            <div class="comment-item">
+                                <div class="comment-body">
+                                    <div id="author-thumb">
+                                        <i class="fas fa-user-circle"></i> 
+                                    </div>
+                                    <div class="c-main">
+                                        <div class="c-header">
+                                            <a class="author-name" href="#">
+                                                <span>Juan Lopez</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>8 months ago</span>
+                                            </a>
+                                        </div>
+                                        <div class="c-body">
+                                            <span>#1 Source for all things web development.</span>
+                                        </div>
+                                        <div class="c-actions">
+                                            <div class="c-thumbs-up">
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                                                <span>25</span>
+                                            </div>
+                                            <div class="c-thumbs-down"><i class="fas fa-thumbs-down"></i></div>
+                                            <div class="c-reply">
+                                                <a href="#"><span>Reply</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                                                <div id="comments-content">
+                            <div class="comment-item">
+                                <div class="comment-body">
+                                    <div id="author-thumb">
+                                        <i class="fas fa-user-circle"></i> 
+                                    </div>
+                                    <div class="c-main">
+                                        <div class="c-header">
+                                            <a class="author-name" href="#">
+                                                <span>CodingPhase</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>8 months ago</span>
+                                            </a>
+                                        </div>
+                                        <div class="c-body">
+                                            <span>Thanks for putting me up on this... this might be easier than heroku will let my students know to use this as an
+                                            alternative!! Great content like always!</span>
+                                        </div>
+                                        <div class="c-actions">
+                                            <div class="c-thumbs-up">
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                                                <span>35</span>
+                                            </div>
+                                            <div class="c-thumbs-down"><i class="fas fa-thumbs-down"></i></div>
+                                            <div class="c-reply">
+                                                <a href="#"><span>Reply</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="comments-content">
+                            <div class="comment-item">
+                                <div class="comment-body">
+                                    <div id="author-thumb">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="c-main">
+                                        <div class="c-header">
+                                            <a class="author-name" href="#">
+                                                <span>Ash Klmepton</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>8 months ago</span>
+                                            </a>
+                                        </div>
+                                        <div class="c-body">
+                                            <span>Dude how do you upload videos so fast ? Are you a machine?</span>
+                                        </div>
+                                        <div class="c-actions">
+                                            <div class="c-thumbs-up">
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                                                <span>38</span>
+                                            </div>
+                                            <div class="c-thumbs-down"><i class="fas fa-thumbs-down"></i></div>
+                                            <div class="c-reply">
+                                                <a href="#"><span>Reply</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="comments-content">
+                            <div class="comment-item">
+                                <div class="comment-body">
+                                    <div id="author-thumb">
+                                        <i class="fas fa-user-circle"></i>
+                                    </div>
+                                    <div class="c-main">
+                                        <div class="c-header">
+                                            <a class="author-name" href="#">
+                                                <span>Jobaer Ahamed Robin</span>
+                                            </a>
+                                            <a href="#">
+                                                <span>8 months ago</span>
+                                            </a>
+                                        </div>
+                                        <div class="c-body">
+                                            <span>Hi Brad. God bless you and the family!</span>
+                                        </div>
+                                        <div class="c-actions">
+                                            <div class="c-thumbs-up">
+                                                <a href="#"><i class="fas fa-thumbs-up"></i></a>
+                                                <span>24</span>
+                                            </div>
+                                            <div class="c-thumbs-down"><i class="fas fa-thumbs-down"></i></div>
+                                            <div class="c-reply">
+                                                <a href="#"><span>Reply</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div id="right">
+                <div id="videos">
+                    <div class="autoplay">
+                        <div id="head">
+                            <span>Up Next</span>
+                            <span>Autoplay</span>
+                        </div>
+                        <div class="v-content autoplay">
+                            <div class="v-image">
+                                <a id="thumbnail" href="https://www.youtube.com/watch?v=Bv_5Zv5c-Ts">
+                                    <img id="img"
+                                        src="https://i.ytimg.com/vi/Bv_5Zv5c-Ts/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLB_7O7m8nZuzJMn2AHJnf9BAL8bvg"
+                                        alt="" width="168">
+                                </a>
+                                <div class="overlay">3:32:50</div>
+                            </div>
+                            <div class="metadata">
+                                <a class="v-info" href="https://www.youtube.com/watch?v=Bv_5Zv5c-Ts">
+                                    <h3>
+                                        <span>JavaScript: Understanding the Weird Parts - The First 3.5...</span>
+                                    </h3>
+                                    <div class="meta-block">
+                                        <span class="uploader">Tony Alicea</span>
+                                        <span class="views">1.6M views</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-video">
+                        <div class="v-content">
+                            <div class="v-image">
+                                <a id="thumbnail" href="https://www.youtube.com/watch?v=OdbBmvfThJY">
+                                    <img id="img"
+                                        src="https://i.ytimg.com/vi/OdbBmvfThJY/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBptebHwQkglk6FajzMy3Gc-5B3Lg"
+                                        alt="" width="168">
+                                </a>
+                                <div class="overlay">12:47</div>
+                            </div>
+                            <div class="metadata">
+                                <a class="v-info" href="">
+                                    <h3>
+                                        <span>#0 Git Tutorial | What is Git? |...</span>
+                                    </h3>
+                                    <div class="meta-block">
+                                        <span class="uploader">Telusko</span>
+                                        <span class="views">428K views</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-video">
+                        <div class="v-content">
+                            <div class="v-image">
+                                <a id="thumbnail" href="https://www.youtube.com/watch?v=PoRJizFvM7s">
+                                    <img id="img"
+                                        src="https://i.ytimg.com/vi/PoRJizFvM7s/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLDqQPb4rOUmb4d8y5RiKOKcas9aHQ"
+                                        alt="" width="168">
+                                </a>
+                                <div class="overlay">24:31</div>
+                            </div>
+                            <div class="v-meta">
+                                <a class="v-info" href="">
+                                    <h3>
+                                        <span>Async JS Crash Course</span>
+                                    </h3>
+                                    <div class="meta-block">
+                                        <span class="uploader">Traversy Media</span>
+                                        <span class="views">203K views</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="next-video">
+                        <div class="v-content">
+                            <div class="v-image">
+                                <a id="thumbnail" href="https://www.youtube.com/watch?v=7kVeCqQCxlk">
+                                    <img id="img"
+                                        src="https://i.ytimg.com/vi/7kVeCqQCxlk/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLAhcd2i7WNduKyL5TJJlbrKq_Td-A"
+                                        alt="" width="168">
+                                </a>
+                                <div class="overlay">32:06</div>
+                            </div>
+                            <div class="v-meta">
+                                <a class="v-info" href="">
+                                    <h3>
+                                        <span>CSS Grid Changes Everything</span>
+                                    </h3>
+                                    <div class="meta-block">
+                                        <span class="uploader">Coding Tech</span>
+                                        <span class="views">687K views</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="show-more">
+                    <div id="more-container">
+                        <span>Show More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
